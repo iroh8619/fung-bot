@@ -154,4 +154,4 @@ client.on('guildMemberAdd', async (member) => {
 });
 
 // Login the bot
-client.login('MTA3MjIwOTY5MDc3MzE2NDE1Mg.GzZb9E.Q3lYRuca3Qg_dsjknADkAOEu5qr16xxL3QgjRQ');
+client.login(process.env.DISCORD_TOKEN);
